@@ -16,7 +16,7 @@
   position:absolute;
   z-index:0;
 }
-#u9259_img {
+#u9258_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -24,13 +24,43 @@
   width:655px;
   height:821px;
 }
-#u9259 {
+#u9258 {
   border-width:0px;
   position:absolute;
   left:51px;
   top:95px;
   width:655px;
   height:821px;
+  display:flex;
+}
+#u9258 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u9258_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u9259_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:295px;
+  height:154px;
+}
+#u9259 {
+  border-width:0px;
+  position:absolute;
+  left:51px;
+  top:711px;
+  width:295px;
+  height:154px;
   display:flex;
 }
 #u9259 .text {
@@ -46,37 +76,7 @@
   text-transform:none;
   visibility:hidden;
 }
-#u9260_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:295px;
-  height:154px;
-}
-#u9260 {
-  border-width:0px;
-  position:absolute;
-  left:51px;
-  top:711px;
-  width:295px;
-  height:154px;
-  display:flex;
-}
-#u9260 .text {
-  position:absolute;
-  align-self:center;
-  padding:2px 2px 2px 2px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u9260_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-  visibility:hidden;
-}
-#u9261_input {
+#u9260_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -95,7 +95,7 @@
   background-color:transparent;
   border-color:transparent;
 }
-#u9261_input.disabled {
+#u9260_input.disabled {
   position:absolute;
   left:0px;
   top:0px;
@@ -114,7 +114,7 @@
   background-color:transparent;
   border-color:transparent;
 }
-#u9261_div {
+#u9260_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -132,7 +132,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u9261 {
+#u9260 {
   border-width:0px;
   position:absolute;
   left:65px;
@@ -141,14 +141,14 @@
   height:29px;
   display:flex;
 }
-#u9261 .text {
+#u9260 .text {
   position:absolute;
   align-self:flex-start;
   padding:2px 2px 2px 20px;
   box-sizing:border-box;
   width:100%;
 }
-#u9261_div.disabled {
+#u9260_div.disabled {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -166,7 +166,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u9261.disabled {
+#u9260.disabled {
 }
-.u9261_input_option {
+.u9260_input_option {
 }
