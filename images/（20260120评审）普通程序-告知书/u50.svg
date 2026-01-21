@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="381px" height="579px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="209px" height="171px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="5901.16666666667" y1="7017.66666666666" x2="5901.16666666667" y2="-3820.42857142858" id="LinearGradient403">
-      <stop id="Stop404" stop-color="#4e7beb" offset="0" />
-      <stop id="Stop405" stop-color="#c2e0fe" stop-opacity="0.988235294117647" offset="0" />
-      <stop id="Stop406" stop-color="#96c9fe" offset="1" />
+    <linearGradient gradientUnits="userSpaceOnUse" x1="3308.40476190476" y1="2006.66666666667" x2="3308.40476190476" y2="-1060" id="LinearGradient112">
+      <stop id="Stop113" stop-color="#4e7beb" offset="0" />
+      <stop id="Stop114" stop-color="#c2e0fe" stop-opacity="0.988235294117647" offset="0" />
+      <stop id="Stop115" stop-color="#96c9fe" offset="1" />
     </linearGradient>
-    <filter x="1193px" y="0px" width="381px" height="579px" filterUnits="userSpaceOnUse" id="filter407">
+    <filter x="783px" y="21px" width="209px" height="171px" filterUnits="userSpaceOnUse" id="filter116">
       <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
       <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
       <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
       <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.2 0  " in="shadowComposite" />
     </filter>
-    <g id="widget408">
-      <path d="M 1193 0  L 1564 0  L 1564 569  L 1193 569  L 1193 0  Z " fill-rule="nonzero" fill="url(#LinearGradient403)" stroke="none" />
+    <g id="widget117">
+      <path d="M 783 21  L 982 21  L 982 182  L 783 182  L 783 21  Z " fill-rule="nonzero" fill="url(#LinearGradient112)" stroke="none" />
     </g>
   </defs>
-  <g transform="matrix(1 0 0 1 -1193 0 )">
-    <use xlink:href="#widget408" filter="url(#filter407)" />
-    <use xlink:href="#widget408" />
+  <g transform="matrix(1 0 0 1 -783 -21 )">
+    <use xlink:href="#widget117" filter="url(#filter116)" />
+    <use xlink:href="#widget117" />
   </g>
 </svg>
